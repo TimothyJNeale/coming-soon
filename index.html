@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon - Six Hills AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevents scrolling */
+        }
+        .background {
+            position: fixed; /* Use fixed or absolute positioning */
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-image: url('SHAI5.webp'); /* Replace with the actual path to the new background image */
+            background-position: left center; /* Anchor the image to the left */
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .text-container {
+            position: absolute;
+            left: 50%; /* Adjust this value to control the division's distance from the left */
+            top: 50%;
+			background-color: rgba(240, 248, 255, 0.75);
+			padding: 10px;
+            transform: translate(-50%, -50%);
+            text-align: center;
+			border-right: 1px solid #ffffff; /* 1-pixel solid white border on the right */
+			border-bottom: 1px solid #ffffff; /* 1-pixel solid white border on the bottom */
+
+        }
+        .business-name, .coming-soon, .description {
+            margin: 0;
+            padding: 10px 0; /* Adjust padding as needed */
+        }
+        .business-name {
+            font-family: 'Orbitron', sans-serif;
+			color: #0d47a1;
+            font-size: 60px;
+            letter-spacing: 3px;
+        }
+        .coming-soon {
+            font-family: 'Orbitron', sans-serif;
+			color: #1a237e;
+            font-size: 48px;
+            letter-spacing: 2px;
+        }
+        .description {
+            font-family: 'Roboto', sans-serif;
+			color: #3949ab;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div> <!-- Background container -->
+    <div class="text-container"> <!-- Text content container -->
+        <div class="business-name">Six Hills AI</div>
+        <div class="coming-soon">COMING SOON</div>
+        <div class="description">Something exciting is on the way!</div>
+    </div>
+</body>
+</html>
